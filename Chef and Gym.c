@@ -10,7 +10,7 @@ int main(void) {
         if(Z>=X+Y){
             printf("2\n");
         }
-        else if(Z<X+Y && Z>X){
+        else if(Z<X+Y && Z>=X){
             printf("1\n");
         }
         else{
