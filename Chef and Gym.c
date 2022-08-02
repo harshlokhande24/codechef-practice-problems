@@ -10,10 +10,10 @@ int main(void) {
         if(Z>=X+Y){
             printf("2\n");
         }
-        else if(X<=Z && Z<Y){
+        else if(Z<X+Y && Z>X){
             printf("1\n");
         }
-        else if(Z<X){
+        else{
             printf("0\n");
         }
     }
