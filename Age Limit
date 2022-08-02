@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+	int T,X,Y,A;
+	scanf("%d",&T);
+	
+	for(int i=0;i<T;i++)
+	{
+	    scanf("%d %d %d",&X,&Y,&A);
+	    if(A>=X && A<Y)
+	    {
+	        printf("yes\n");
+	    }
+	    else
+	    {
+	        printf("no\n");
+	    }
+	}
+	return 0;
+}
+
